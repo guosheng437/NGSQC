@@ -1,5 +1,5 @@
 # NGS-QC-Panel
-This is the code repository for the paper "Authentication, characterization and contamination detection of cell lines, xenografts and organoids by barcode deep NGS sequencing" published at NAR Genomics and Bioinformatics. Interested readers can consult the paper for algorithm details. 
+This is the code repository for the paper "Authentication, characterization and contamination detection of cell lines, xenografts and organoids by barcode deep NGS sequencing" published at NAR Genomics and Bioinformatics. Interested readers can consult the paper for algorithms and result interpretation. 
 
 ## Requirements
 The programs were developed and tested in perl(v5.28.1) and R(v3.6), they should run in other versions as well under both Linux and Windows. R can be downloaded from 
@@ -31,7 +31,7 @@ There are two perl programs, one R script and an accessory file
 
 
 ### Datasets
-There are three datasets used for illustrating the inference/estimation.
+There are three datasets used used for inference and estimation by the above programs
 
 **mutfre**:  SNP fingerprints for 1055 cell lines
 
