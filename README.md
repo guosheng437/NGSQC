@@ -1,3 +1,5 @@
+#NGS-QC-Panel
+
 This is the code repository for the paper "Authentication, characterization and contamination detection of cell lines, xenografts and organoids by barcode deep NGS sequencing" published at NAR Genomics and Bioinformatics. Interested readers can consult the paper for algorithm details. 
 
 ## Requirements
