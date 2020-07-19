@@ -40,6 +40,8 @@ There are three datasets used used for inference and estimation by the above pro
 **testedcelllines_Table3**: .depth files for 22 cell line samples used in Table 3 of the paper
 
 ## Running the programs
+Download data and src folders and place them under same directory before running the program
+
 1. Inference of the major component of a sample
 
 ```perl 
