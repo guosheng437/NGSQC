@@ -1,5 +1,4 @@
-#NGS-QC-Panel
-
+# NGS-QC-Panel
 This is the code repository for the paper "Authentication, characterization and contamination detection of cell lines, xenografts and organoids by barcode deep NGS sequencing" published at NAR Genomics and Bioinformatics. Interested readers can consult the paper for algorithm details. 
 
 ## Requirements
@@ -14,7 +13,9 @@ The following packages are required for R
 * MASS
 * EnvStats
 
-## Programs
+
+## Contents
+### Programs
 There are two perl programs, one R script and an accessory file
 
 **MajorComponentEstimation.pl**:  perl script for inferring the major component of a sample
@@ -29,7 +30,7 @@ There are two perl programs, one R script and an accessory file
 **binomial_threshold.txt**: this file is used by ContaminationRatioEstimationS1.pl 
 
 
-## Datasets
+### Datasets
 There are three datasets used for illustrating the inference/estimation.
 
 **mutfre**:  SNP fingerprints for 1055 cell lines
