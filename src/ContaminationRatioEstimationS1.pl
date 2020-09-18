@@ -10,9 +10,9 @@ use Cwd;
 ######################################################
 #--global parameters--#
 ######################################################
-my $MINREADS = 500;
+my $MINREADS = 1000;
 my $LARGE_SMALL_CUTOFF = 0.20;
-my $MINIMAL_FREQUENCY = 0.003; #3/1000 as the error cut-off
+my $MINIMAL_FREQUENCY = 0.01; #10/1000 as the error cut-off
 my $PATH2DEPTH = '../data/testedcelllines_Table2/.';  #This is the path to the fold storing all .depth files for tested cell lines
 #my $PATH2DEPTH = '../data/testedcelllines_Table3/.';  #This is the path to the fold storing all .depth files for tested cell lines
 my $PWD = getcwd();
